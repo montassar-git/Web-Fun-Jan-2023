@@ -1,0 +1,25 @@
+
+  
+.my
+{
+    color: rgb(0,255,255);
+    text-align:left;
+    background-color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.pro{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: blueviolet ;
+  
+}  
+ .lien{
+    color: rgb(93,104,158);
+    text-align: right;
+    background-color: rgb(159,197,248);
+
+ }
+ span{
+    color: rgb(255, 255, 255);
+
+ }
