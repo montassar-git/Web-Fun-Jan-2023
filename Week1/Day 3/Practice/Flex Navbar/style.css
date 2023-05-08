@@ -1,0 +1,39 @@
+.nav
+{
+    display: flex;
+    align-items: center;
+    background-color: rgb(89, 86, 86);
+    color: white;
+    justify-content: space-between;
+   padding: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-links{
+    display: flex;
+    color: white;
+    
+    justify-content: space-between;
+   
+    margin: 10px;
+    
+}
+.btn{
+    background-color: aqua;
+    box-shadow: 5px 5px 5px black;
+    margin: 20px;
+}
+.active
+{
+    font-size: large;
+}
+a{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+   color: white;
+
+}
+ul{
+    list-style-type: none;
+    
+}
