@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav {
+    background-color: black;
+    width: 1080px;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.list {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    height: 35px;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top {
+    width: 450px;
+    height: 380px;
+    background-color: white;
+    border-color: antiquewhite;
+    border: 3px solid rgb(206, 202, 202);
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.blue {
+    background-color: aqua;
+    width: 450px;
+    height: 120px;
+
+
+}
+
+img {
+    width: 20px;
+    height: 25px;
+
+}
+
+#image {
+    border-radius: 70%;
+    width: 150px;
+    height: 120px;
+    margin-top: 80px;
+    margin-left: 20px;
+
+    border: -5px solid rgb(207, 203, 203);
+    border: 10px solid rgb(246, 246, 246);
+}
+
+.white {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    padding-left: 20px;
+
+
+}
+
+.gearimg {
+
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+
+.buttom {
+    height: auto;
+    width: 450px;
+    background-color: white;
+    border-color: antiquewhite;
+    border: 3px solid rgb(185, 179, 179);
+    margin-left: 50px;
+}
+
+.nav1 {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.text {
+
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.text h3 {
+    color: rgb(101, 102, 102);
+    margin: 7px;
+}
+
+.nav1 h1 {
+    padding-left: 20px;
+}
+
+.high,
+.low {
+    font-size: medium;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    border: 3px solid rgb(206, 202, 202);
+    margin-right: 270px;
+
+
+}
+
+.high ul li,
+.list1 {
+    margin: 10px;
+
+    list-style-type: none;
+}
+
+.ab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ac {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apa,
+.spann {
+    border-radius: 50%;
+    background-color: azure;
+    color: black;
+}
+
+.title1,
+.title {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.right img {
+    border-radius: 70%;
+}
+
+.link1 {
+
+    padding: 10px;
+    border: 3px solid rgb(206, 202, 202);
+}
