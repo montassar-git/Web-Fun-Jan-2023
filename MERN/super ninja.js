@@ -23,7 +23,7 @@ class Ninja {
 }
 
 class Sensei extends Ninja {
-    constructor(name,health,speed,strength) {
+    constructor(name,health=200,speed=10,strength=10) {
         super(name,health,speed,strength)
         // this.name = name;
         this.wisdom = 10;
@@ -36,3 +36,4 @@ class Sensei extends Ninja {
 
 const superSensei = new Sensei("Master Splinter");
 superSensei.speakWisdom();
+superSensei.showStats();
