@@ -1,23 +1,39 @@
-
 import './App.css';
-import Mynewcomponent from './components/Mynewcomponent';
-var peopleArr =[
-  {"firstName":"Jane", "lastName":"Doe", "age":45, "hairColor":"Black"},
-  {"firstName":"John", "lastName":"Smith","age":88,"hairColor":"Brown"},
-  {"firstName":"Millard", "lastName":"Fillmore","age":50,"hairColor":"Brown"},
-  {"firstName":"Maria", "lastName":"Smith","age":62,"hairColor":"Brown"}
+import PersonCard from './components/Mynewcomponent';
+
+const datas=[
+  {
+    firstName : "Doe",
+    lastName : "Jane",
+    age : 45,
+    hairColor : "Black"
+  },
+  {
+    firstName : "Smith",
+    lastName : "John",
+    age : 88,
+    hairColor : "Brown"
+  },
+  {
+    firstName : "Fillmore",
+    lastName : "Millard",
+    age : 50,
+    hairColor : "Brown"
+  },
+  {
+    firstName : "Smith",
+    lastName : "Maria",
+    age : 62,
+    hairColor : "Brown"
+  }
 ]
 
 function App() {
   return (
     <div className="App">
-
-      {peopleArr.map(person => {
-        return <Mynewcomponent firstName={person.firstName} lastName={person.lastName} age={person.age} hairColor={person.hairColor} />
-      })
-      
-      }
-
+      {datas.map( function(data, i){
+        return <PersonCard firstName={data.firstName} lastName={data.lastName} age={data.age} hairColor={data.hairColor}/>
+      })}
     </div>
   );
 }
